@@ -10,9 +10,11 @@
 
 </head>
 <body>
-<div class = "satoru"><h1>Satoru</h1></div>
+<div class = "satoru"><h1>Satoruのホームページ</h1></div>
 <p>2018/08/02
-こんにちは。<a href="https://ja.wikipedia.org/wiki/HyperText_Markup_Language"><div class = "html">HTML</div></a>を少し覚えたのでホームページを作りました。<br>
+こんにちは。HTMLを少し覚えたのでホームページを作りました。<br>
+ユニクロのTシャツは<a href="https://utme.uniqlo.com/jp/front/mkt/show?id=364892&locale=ja">こちら</a>から、LINEスタンプは<a href="https://t.co/BOprYAhLCZ">こちら</a>から
+
 <div class = "aboutme">・中学三年生　<br>
 ・ギターとベースを弾くのが好きです<br>
 ・凛として時雨、Oasis、RHCP、RADWIMPS、BUMP、クリープハイプが好きです<br>
@@ -20,7 +22,7 @@
 ・高校受験がなくて、部活もほぼ行ってないので夏休みがかなり暇です<br>
 ・Progateでプログラミングを始めました。プログラミングで何か音楽に関係することで面白いものを作りたいです<br>
 ・好きな教科は英語、苦手な教科はそれ以外<br>
-・尊敬する人　　　堀江貴文さん、落合陽一さん、ジミヘンドリックス、TKさん、石田スイさん、イーロンマスク、アインシュタイン、野田洋次郎さん<br>
+・尊敬する人　　→→→　堀江貴文さん、落合陽一さん、ジミヘンドリックス、TKさん、石田スイさん、イーロンマスク、アインシュタイン、野田洋次郎さん<br>
 ・万里の長城、ウユニ湖に行ってみたい<br>  </div>
 </p>
 
@@ -38,13 +40,16 @@ function showClock2() {
    var nowHour = set2fig( nowTime.getHours() );
    var nowMin  = set2fig( nowTime.getMinutes() );
    var nowSec  = set2fig( nowTime.getSeconds() );
-   var msg = "時刻は" + nowHour + ":" + nowMin + ":" + nowSec + " だよ";
+   var msg = nowHour + ":" + nowMin + ":" + nowSec;
    document.getElementById("RealtimeClockArea2").innerHTML = msg;
 }
 setInterval('showClock2()',1000);
 </script>
 
 <br>
+
+<hr noshade>
+
 
 <marquee>(　˙-˙　)</marquee>
 <br>
@@ -93,12 +98,22 @@ setInterval('showClock2()',1000);
 
 <br>
 <p>
+  2018/08/11 土曜日　<br>
+  ユニクロでTシャツを作りました！<br>
+  <a href="https://utme.uniqlo.com/jp/front/mkt/show?id=364892&locale=ja">こちら</a>から
+
+</p>
+<hr noshade>
+
+
+<p>
 2018/08/02  火曜日　晴れ <br>
 今日は用事がなかったので家にいた。少し勉強して、すぐに疲れたから公園に走りに行ったら蚊に刺された。痒かったのでムヒをやった。
 帰ってきてギターを弾いて、夜ご飯を食べた。今火星が近くに来ているらしくて、昨日展望台に見に行こうとしたけど曇っていて全く見れなかった。今日もリベンジしにまた行ったけど全く見れなかった。残念<br>
 
 
 <hr noshade>
+
 
 
 
@@ -120,10 +135,10 @@ btn-wrapper:hover{
 
    .satoru{
 
-      color:#000088;margin:0 auto;
+      color:#800000;font-family:fantasy;
    }
   .aboutme{
-   color:#000088;background-color:#ffd800;width:800px;
+   color:#000088;background-color:#00FF7F;width:800px;border-radius:12px;
   }
   .japan{
    color = green
